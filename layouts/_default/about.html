@@ -1,17 +1,74 @@
+{{ define "main" }}
 <!-- ======= Breadcrumbs ======= -->
 <section class="breadcrumbs">
   <div class="container pt-3">
     <ol>
-      <li><a href="index.html">Home</a></li>
-      <li>Inner Page</li>
+      <li><a href="/">Home</a></li>
+      <li>About Page</li>
     </ol>
-    <h2>Inner Page</h2>
+    <h2>BIO</h2>
   </div>
 </section>
 <!-- End Breadcrumbs -->
 
-<section class="inner-page">
-  <div class="container">
-    <p>Example inner page template</p>
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="row gx-0">
+      <div
+        class="col-lg-7 d-flex flex-column justify-content-center"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div class="content">
+          <h3>Who I am</h3>
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          <p>
+            Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et.
+            Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam
+            nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            eligendi fugit est modi fuga pariatur officia ratione vitae fugiat
+            impedit? Reprehenderit tenetur nulla aliquam maiores ea aspernatur
+            quia animi tempore? Aliquam voluptatibus nemo earum nihil
+            dignissimos!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At vel
+            animi dolor ratione. Neque quod blanditiis tempora distinctio
+            repellendus libero praesentium nam, amet ratione qui doloremque
+            ipsum esse officia sunt eaque minima impedit, dignissimos culpa
+            provident recusandae quasi ad quam? Ea minima similique atque,
+            voluptates sint voluptate quasi consectetur, rem dolores quae, amet
+            culpa rerum neque quis! Quidem, distinctio velit?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            neque itaque aspernatur tempora natus sequi pariatur at maxime
+            dolorum nihil. Ipsa rerum, saepe sapiente illo vitae blanditiis
+            debitis explicabo minima pariatur assumenda fugiat earum
+            consequuntur modi dolores dolorem magnam est esse quia
+            necessitatibus iure repudiandae placeat commodi quibusdam.
+            Voluptatem ipsam magnam delectus nesciunt explicabo accusantium,
+            totam voluptatibus quos sint placeat ab adipisci debitis quis.
+            Repellendus officiis nisi natus ducimus illo quasi pariatur,
+            deserunt ea dignissimos commodi velit laudantium reiciendis facilis!
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="col-lg-5 d-flex align-items-center"
+        data-aos="zoom-out"
+        data-aos-delay="200"
+      >
+        <img src="/assets/img/about-us.jpg" class="img-fluid" alt="" />
+      </div>
+    </div>
   </div>
 </section>
+<!-- End About Section -->
+
+{{end}}

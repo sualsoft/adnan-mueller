@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", serif;
   color: #444444;
 }
 
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Lora", serif;
 }
 
 /*--------------------------------------------------------------
@@ -196,7 +196,7 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Lora", serif;
   font-size: 16px;
   font-weight: 700;
   color: var(--teal);
@@ -383,10 +383,10 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: #fff;
 }
 .hero h2 {
-  color: #444444;
+  color: ivory;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -401,7 +401,7 @@ section {
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -457,19 +457,19 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  background-color: ivory;
   padding: 40px;
 }
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: var(--teal);
   text-transform: uppercase;
 }
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: var(--teal);
 }
 .about p {
   margin: 15px 0 30px 0;
@@ -481,11 +481,10 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  background: var(--mary-gold);
 }
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -556,7 +555,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Lora", serif;
   font-size: 14px;
 }
 
@@ -857,7 +856,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid #4154f1;
@@ -1299,10 +1298,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid var(--mary-gold);
 }
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: var(--mary-gold);
 }
 
 /*--------------------------------------------------------------
@@ -1372,11 +1371,11 @@ section {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: var(--mary-gold);
 }
 .contact .info-box h3 {
   font-size: 20px;
-  color: #012970;
+  color: var(--teal);
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -1437,7 +1436,7 @@ section {
 }
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #4154f1;
+  border-color: var(--teal);
 }
 .contact .php-email-form input {
   padding: 10px 15px;
@@ -1446,7 +1445,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type="submit"] {
-  background: #4154f1;
+  background: var(--mary-gold);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1454,7 +1453,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type="submit"]:hover {
-  background: #5969f3;
+  background: var(--mary-gold);
 }
 @-webkit-keyframes animate-loading {
   0% {
