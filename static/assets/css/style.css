@@ -387,18 +387,19 @@ section {
 
 .hero {
   width: 100%;
-  height: 100vh;
+  height: auto;
+  margin-top: 80px;
 }
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
   color: #000;
 }
 .hero h2 {
   color: var(--teal);
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 36px;
 }
 .hero .btn-get-started {
   margin-top: 30px;
@@ -1300,21 +1301,38 @@ section {
   opacity: 1;
 }
 
-.clients-slider .swiper-button-prev::after,
-.clients-slider .swiper-button-next::after {
+.swiper-button-prev::after,
+.swiper-button-next::after {
   display: none !important;
 }
-.clients-slider .swiper-button-prev i,
-.clients-slider .swiper-button-next i {
+.swiper-button-prev i,
+.swiper-button-next i {
   color: var(--teal);
   background-color: var(--mary-gold);
-  padding: 15px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
 }
+.clients-slider {
+  position: relative;
+}
 
+.swiper-pagination {
+  position: absolute !important;
+  /* Other styles */
+}
+.swiper-button-next i {
+  position: relative;
+  right: -50px;
+  top: 35px;
+}
+.swiper-button-prev {
+  position: relative;
+  left: -50px;
+  top: -35px;
+}
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/

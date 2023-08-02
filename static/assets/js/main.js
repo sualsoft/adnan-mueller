@@ -193,7 +193,7 @@
       },
       992: {
         slidesPerView: 6,
-        spaceBetween: 120,
+        spaceBetween: 80,
       },
     },
     navigation: {
